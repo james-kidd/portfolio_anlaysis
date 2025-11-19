@@ -23,7 +23,9 @@ This project tests whether you can infer an ETF’s **top holdings** using only 
 - **Log Loss:** ~0.51  
 - **Accuracy:** ~0.81  
 
-The model successfully captures structural patterns in ETF construction and can distinguish higher-weight holdings from lower-weight names using only public performance data.
+The model does capture meaningful structural signals in ETF construction and can reliably distinguish higher-weight holdings using only public return data.
+
+However, it cannot replicate portfolio-manager intent, sector rules, or fundamentals, so its predictions are useful for analytics demonstrations but not full holdings inference.
 
 ## Notes
 - This is an **analytics demo**, not an investment tool.  
